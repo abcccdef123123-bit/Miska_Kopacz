@@ -1,8 +1,9 @@
 # Ignoruj wszystko domyślnie
 /*
 
-# Dozwolone pliki w repozytorium (tylko pliki moda .jar i dokumentacja modu)
+# Dozwolone pliki w repozytorium (pliki moda .jar, wersjonowanie i dokumentacja modu)
 !.gitignore
+!version.json
 !README_MOD.md
 !kopacz-fabric-1.21.11.jar
 !kopacz-fabric-1.21.4.jar
