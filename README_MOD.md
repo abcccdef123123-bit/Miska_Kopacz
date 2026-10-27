@@ -93,8 +93,10 @@ Wystarczy przenieść odpowiedni plik do folderu:
       - Przycisk `[🎯 Ustaw z kamery]` i regulacja kąta (Pitch).
       - Przycisk `[⚡ Przetestuj naprawę w kowadle]`.
   - 🔄 **Pod-zakładka: Reconnect (Auto-reconnect & wejście na tryb)**:
-    - **Automatyczne ponowne łączenie**: po wyrzuceniu z serwera (kick/restart/disconnect), ekran rozłączenia wyświetla licznik odliczający do wejścia, a bot automatycznie łączy się z powrotem.
-    - **Własne IP serwera**: pole na adres serwera (np. `mc.serwer.pl`). Jeśli zostawisz puste, bot automatycznie połączy się z ostatnio odwiedzonym serwerem.
+    - **Działa tylko podczas kopania**: Auto-Reconnect aktywuje się **wyłącznie**, gdy bot aktywnie kopał w chwili rozłączenia. Gdy grasz ręcznie, bot jest wyłączony lub jesteś na innym serwerze, mod w żaden sposób nie ingeruje w ekran rozłączenia.
+    - **Bezpieczna izolacja innych serwerów**: wejście na inny serwer natychmiast resetuje procedurę reconnectu z poprzedniego serwera, nie blokuje klawiszy, nie klika kompasem i nie zamyka ekwipunku ani menu.
+    - **Automatyczne ponowne łączenie**: po wyrzuceniu z serwera (kick/restart/disconnect) w trakcie kopania AFK, ekran rozłączenia odlicza czas i łączy z powrotem na serwer, na którym trwało kopanie.
+    - **Własne IP serwera**: pole na adres serwera (np. `mc.serwer.pl`). Jeśli zostawisz puste, bot automatycznie połączy się z serwerem, na którym było uruchomione kopanie.
     - **⏺ Nagrywanie kliknięć wejścia na dany tryb**:
       1. W pod-zakładce `Reconnect` kliknij `[⏺ Nagraj kliknięcia]`.
       2. Menu zamknie się, a w lewym górnym rogu ekranu pojawi się status `[NAGRYWANIE WEJŚCIA NA TRYB]`.
@@ -125,7 +127,21 @@ Wystarczy przenieść odpowiedni plik do folderu:
     - ⏱ **Co jakiś czas (Interwał czasowy)**: regulacja `[-]`/`[+]` oraz klikalne presety (1m, 2m, 3m, 5m, 10m, 15m, 30m lub WYŁ).
     - 📦 **Co ileś stacków (Próg zapełnienia)**: wyrzuca, gdy łączna liczba itemów do wyrzucenia osiągnie wybrany próg (1, 2, 3, 5, 9, 18, 36 stacków lub WYŁ).
     - 🎒 **Gdy full EQ**: natychmiastowe wyrzucenie, gdy w ekwipunku skończy się wolne miejsce.
-    - 🗑 **Teraz**: przycisk natychmiastowego manualnego wyrzucenia przedmiotów.
+  - 🎯 **Kierunkowe wyrzucanie przedmiotów (Drop Direction & Kamera)**:
+    - **Wybór kierunku wyrzutu**: przycisk `[🧭 Wyrzut: ...]` pozwala wybrać precyzyjny kierunek wyrzucania:
+      - `pod siebie ⤓` (Pitch 90° – bezpośrednio pod nogi/stopy, np. do leja zbierającego lub kraty).
+      - `w lewo ⬅` (Yaw -90°, Pitch 35° – wyrzucanie w lewo na ziemię/do zsypu).
+      - `w prawo ➔` (Yaw +90°, Pitch 35° – wyrzucanie w prawo).
+      - `w tył ⬇` (Yaw 180°, Pitch 35° – wyrzucanie za plecy).
+      - `w przód ⬆` (Yaw 0°, Pitch 35° – wyrzucanie przed siebie).
+      - `w górę ⤒` (Pitch -90° – wyrzucanie prosto w sufit/zbierak).
+      - `własny 🎯` (indywidualny kąt pobrany z kamery gracza).
+    - 🎯 **Przycisk `[🎯 Ustaw z kamery]` (jak w module Kowadła)**:
+      - Stań w docelowym miejscu, spójrz celownikiem dokładnie tam, gdzie bot ma wyrzucać śmieci i kliknij przycisk `[🎯 Ustaw z kamery]`. Mod pobierze i zapisze dokładny kąt patrzenia (Yaw oraz Pitch), ustawi kierunek na `własny 🎯` i wyświetli potwierdzenie na czacie.
+    - 📐 **Kąt nachylenia głowy (Pitch)**:
+      - Przycisk `[📐 Pitch: ...]` pozwala cyklicznie przełączać kąt pionowy wyrzutu (`90° pod siebie`, `60° stromo w dół`, `35° naturalnie na ziemię`, `0° na wysokości oczu`, `-90° w górę`).
+    - 🛡 **Płynny, realistyczny ruch kamery (Anti-Cheat Safe)**:
+      - W momencie wyzwolenia wyrzutu bot wstrzymuje ruch, płynnie obraca kamerę w stronę wyznaczonego miejsca (z ludzkim wygładzaniem ruchu bez teleportera, w 100% niewykrywalnym przez GrimAC i Vulcan), otwiera ekwipunek, wyrzuca przedmioty ze wskazanych slotów w wybranym kierunku, bezpiecznie zamyka okno i płynnie przywraca kamerę dokładnie na stoniarkę, wznawiając kopanie!
   - **Tryby dla każdego slotu indywidualnie** na siatce 4x9:
     - 🟩 **`↓` (Zielony)**: wyrzuca cały stack ze slotu.
     - 🟧 **`↓1` (Złoty / Pomarańczowy)**: wyrzuca nadmiar, zostawiając dokładnie 1 item (blokuje slot przed wpadaniem innych śmieci).
