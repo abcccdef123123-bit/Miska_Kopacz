@@ -1,4 +1,8 @@
-{
-  "revoked_users": [],
-  "revoked_keys": []
+﻿{
+    "revoked_users":  [
+                          "TestUser123"
+                      ],
+    "revoked_keys":  [
+
+                     ]
 }
