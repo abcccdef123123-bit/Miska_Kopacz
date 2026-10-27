@@ -1,8 +1,6 @@
-﻿{
-    "revoked_users":  [
-
-                      ],
-    "revoked_keys":  [
-
-                     ]
+{
+    "revoked_users": [],
+    "revoked_keys": [
+        "KPZ-MTpWSVA6QUxMOjE3OTM3Mzg3Mjk.edL5_kLmNjCa6dCnpQ78NJ5Dgr4eTCSsgGf4ixMQKS4jvWi7sCHOGXmuHn51IPD2R-jcJnjcCYLnQ6oTa6MeyRJ0nX730PGW5YqfzhXtrzOrlP7fgnDtd1racd-RzKriM90u-SU1r7m8xx2Pfnp_CzqjZj1iMqr9rQ4ImWcxgxCLUOOXGexZoUKq2Yw8vAtB7IsaauXju0AcTzgrGvbDWMG16saYiPxlaih0ziTfiBpLZ4IlG5DO8vHbmqy0nxUY18A5pqhzdgba4ygsFH8dJYLdV_OPJNdrGq5McU0FMw8g63t9LOgVtbRyHAZHy_MTsqIW51EdM1R2gshtlSIV8Q"
+    ]
 }
