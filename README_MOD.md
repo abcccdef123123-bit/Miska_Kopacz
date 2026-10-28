@@ -70,7 +70,13 @@ Wystarczy przenieść odpowiedni plik do folderu:
       - **Spokojne tempo**: domyślnie `2.0°/tick` (~9 sekund na pełen obrót 360°), dzięki czemu postać nie kręci się za szybko i dokładnie wykopuje każdy odnawiający się blok dookoła.
       - **Pełna regulacja**: przyciski `[-]` i `[+]` oraz klikalne presety tempa (`1.0°`, `1.5°`, `2.0°`, `2.5°`, `3.0°`, `4.0°/tick`) z czytelnym przelicznikiem czasu obrotu.
   - Wybór trybu myszy: trzymanie LPM lub zadany CPS.
-  - Ochrona kilofa przed zniszczeniem oraz automatyczna zmiana na zapasowy kilof z hotbara.
+  - 🛠 **Wybór narzędzia do kopania (Kilof / Siekiera / Łopata)**:
+    - Przycisk `[Narzędzie: ⛏ Kilof]` pozwala jednym kliknięciem przełączyć docelowe narzędzie pracy:
+      - ⛏ **Kilof** – tradycyjna stoniarka, rudy, kamień, głęboki łupek.
+      - 🪓 **Siekiera** – automatyczne rąbanie drewna, pni, kłód i desek.
+      - 🥄 **Łopata** – kopanie piasku, żwiru, ziemi, gliny.
+    - Mod automatycznie wyszukuje i dobiera najlepsze narzędzie danego typu (według tieru i enchantów: Wydajność, Szczęście, Jedwabny dotyk, Niezniszczalność) z hotbara oraz podmienia z ekwipunku.
+  - 🛡 **Ochrona narzędzia przed zniszczeniem** oraz **automatyczna zmiana** na zapasowe narzędzie wybranego typu.
   - 🍗 **Automatyczne jedzenie podczas kopania (Auto-Food)**:
     - **Wybór slotu z jedzeniem**: kliknij przycisk `[🍱 Slot: ...]`, aby wybrać konkretny slot (`Slot 1` .. `Slot 9`), `Druga ręka` (Offhand) lub `Auto` (dowolny slot z jedzeniem na hotbarze).
     - **Podgląd slotu na żywo**: tooltip w GUI informuje dokładnie, jaki przedmiot i w jakiej ilości znajduje się w wybranym slocie oraz czy jest to zdatne do spożycia jedzenie.
@@ -285,3 +291,4 @@ Wystarczy przenieść odpowiedni plik do folderu:
     - Płynne przewijanie kółkiem myszy i przyciskami `[▲]` / `[▼]`.
     - Podgląd szczegółowych informacji w szklanym tooltipie po najechaniu myszą (ilość sztuk, stacki, registry ID).
   - **Przycisk `[✕ Zeruj]`**: natychmiastowe czyszczenie wszystkich liczników w pliku `config/kopacz_stats.json`.
+
