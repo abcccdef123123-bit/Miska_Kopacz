@@ -1,12 +1,12 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "minecraft_1.21.11": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "jar": "kopacz-fabric-1.21.11.jar",
     "url": "https://raw.githubusercontent.com/abcccdef123123-bit/Miska_Kopacz/main/kopacz-fabric-1.21.11.jar"
   },
   "minecraft_1.21.4": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "jar": "kopacz-fabric-1.21.4.jar",
     "url": "https://raw.githubusercontent.com/abcccdef123123-bit/Miska_Kopacz/main/kopacz-fabric-1.21.4.jar"
   }
