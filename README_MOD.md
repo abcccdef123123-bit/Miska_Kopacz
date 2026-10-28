@@ -70,12 +70,14 @@ Wystarczy przenieść odpowiedni plik do folderu:
       - **Spokojne tempo**: domyślnie `2.0°/tick` (~9 sekund na pełen obrót 360°), dzięki czemu postać nie kręci się za szybko i dokładnie wykopuje każdy odnawiający się blok dookoła.
       - **Pełna regulacja**: przyciski `[-]` i `[+]` oraz klikalne presety tempa (`1.0°`, `1.5°`, `2.0°`, `2.5°`, `3.0°`, `4.0°/tick`) z czytelnym przelicznikiem czasu obrotu.
   - Wybór trybu myszy: trzymanie LPM lub zadany CPS.
-  - 🛠 **Wybór narzędzia do kopania (Kilof / Siekiera / Łopata)**:
+  - 🛠 **Wybór narzędzia do kopania (Kilof / Siekiera / Łopata / Motyka)**:
     - Przycisk `[Narzędzie: ⛏ Kilof]` pozwala jednym kliknięciem przełączyć docelowe narzędzie pracy:
       - ⛏ **Kilof** – tradycyjna stoniarka, rudy, kamień, głęboki łupek.
       - 🪓 **Siekiera** – automatyczne rąbanie drewna, pni, kłód i desek.
       - 🥄 **Łopata** – kopanie piasku, żwiru, ziemi, gliny.
+      - 🌾 **Motyka** – uprawy, liście, siano, gąbka, sculk.
     - Mod automatycznie wyszukuje i dobiera najlepsze narzędzie danego typu (według tieru i enchantów: Wydajność, Szczęście, Jedwabny dotyk, Niezniszczalność) z hotbara oraz podmienia z ekwipunku.
+    - 🔨 **Pełna obsługa naprawy w kowadle**: bot automatycznie naprawia w kowadle wybrane narzędzie (kilof, siekierę, łopatę lub motykę) używając właściwego surowca lub zapasowego narzędzia tego samego typu!
   - 🛡 **Ochrona narzędzia przed zniszczeniem** oraz **automatyczna zmiana** na zapasowe narzędzie wybranego typu.
   - 🍗 **Automatyczne jedzenie podczas kopania (Auto-Food)**:
     - **Wybór slotu z jedzeniem**: kliknij przycisk `[🍱 Slot: ...]`, aby wybrać konkretny slot (`Slot 1` .. `Slot 9`), `Druga ręka` (Offhand) lub `Auto` (dowolny slot z jedzeniem na hotbarze).
