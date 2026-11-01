@@ -215,13 +215,13 @@ Wystarczy przenieść odpowiedni plik do folderu:
   - Ósma zakładka w menu bota, podzielona na dwie pod-zakładki: **`[ ⚡ Własne ]`** oraz **`[ 📦 Gotowce (N) ]`**.
   - **⚡ Własne (Nagrywanie i edytor)**:
     - **Wybór trybu nagrywania makra**:
-      - **`[ 🎬 Same sekwencje ]`**: nagrywa wyłącznie czyste sekwencje akcji (komendy czatu, otwieranie/zamykanie GUI, klikanie slotów, użycia przedmiotów). Ignoruje ruch postaci (WASD, skoki) oraz obroty kamerą myszką – idealne do szybkich makr sklepu, targu, automatycznego handlu i craftingu bez ruszania celownikiem.
-      - **`[ 🎬 Ruch i Kamera ]`**: pełne makro z rejestracją chodzenia po świecie (klawisze W, S, A, D, Spacja, Shift, Sprint) oraz ciągłych, płynnych kątów obrotu kamery (Yaw i Pitch).
+      - **`[ 🎬 Same sekwencje ]`**: nagrywa wyłącznie czyste sekwencje akcji (komendy czatu, otwieranie/zamykanie GUI, klikanie slotów oraz kliknięcia w oknach Custom GUI wg współrzędnych, użycia przedmiotów). Ignoruje ruch postaci (WASD, skoki) oraz obroty kamerą myszką – idealne do szybkich makr sklepu, targu, automatycznego handlu i craftingu bez ruszania celownikiem.
+      - **`[ 🎬 Ruch i Kamera ]`**: pełne makro z rejestracją chodzenia po świecie (klawisze W, S, A, D, Spacja, Shift, Sprint) oraz ciągłych, płynnych kątów obrotu kamery (Yaw i Pitch), a także pełnych interakcji z oknami i Custom GUI.
     - **Nagrywanie na żywo (Live Recorder)**:
       - Kliknij `⏺ Rozpocznij nagrywanie` w menu `[K]`.
       - Mod przechodzi w tryb nagrywania z pulsującym wskaźnikiem na ekranie gry (`🔴 NAGRYWANIE WŁASNEJ SEKWENCJI` z informacją o wybranym trybie: Same sekwencje lub Ruch i Kamera).
       - Wpisuj dowolne komendy na czacie (np. `/sklep`, `/rynek`, `/crafting`, `/fix`) – zostaną automatycznie zarejestrowane.
-      - Otwieraj menu i klikaj dowolne sloty / przedmioty – mod precyzyjnie zarejestruje indeks slotu, przycisk myszy (LPM/PPM) oraz nazwę przedmiotu.
+      - Otwieraj menu i klikaj dowolne sloty, przedmioty lub elementy Custom GUI – mod precyzyjnie zarejestruje indeks slotu lub dokładne współrzędne ekranu (X, Y), przycisk myszy (LPM/PPM) oraz nazwę okna/przedmiotu.
       - Zamykanie menu klawiszem `E` / `ESC` zostaje zarejestrowane jako krok zamknięcia GUI.
       - Naciśnij klawisz `[K]`, aby zakończyć nagrywanie – mod zapisze wszystkie kroki i otworzy menu w zakładce `Makro ➔ Własne`.
     - **Zapisywanie do Gotowców**:
